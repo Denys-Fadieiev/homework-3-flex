@@ -1,0 +1,167 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --black: black;
+  --gray:#333;
+  --white:white;
+  --font-size: 1.1em;
+}
+
+body{
+  font-size: var(--font-size);
+  line-height: 1.4;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: var(--gray);
+}
+
+/* header-style start */
+.header{
+  width: 100%;
+  min-height: 48vh;
+  padding-top: 10vh;
+  background-image: url(../image/header.png);
+  background-color: var(--gray);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.white{
+  color: var(--white);
+}
+
+.caption{
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.header-text{
+  width: 50%;
+  margin: 1.5em auto;
+}
+/* header style end */
+
+
+/* main style start */
+.desc{
+  width: 50%;
+  margin: 2.5em auto;
+}
+
+.btn{
+  display: inline-block;
+  padding: 18px 36px;
+  background-color: var(--gray);
+  border: solid gray 1px;
+}
+
+.btn:hover{
+  color: var(--black);
+  background-color: var(--white);
+}
+
+.section{
+  width: 100%;
+  padding: 2em;
+}
+
+.title{
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 1em;
+}
+
+.title-margin-none{
+  margin-top: 0;
+}
+
+.text{
+  margin-top: 2.5em;
+}
+
+.text-column{
+  width: 50%;
+  margin: 2em auto;
+  columns: 250px 2;
+  column-gap: 50px;
+}
+
+.bg-grey{
+  width: 100%;
+  background-color: var(--gray);
+}
+
+.wrap-column{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.section-cards{
+  width: 32%;
+  background-color: var(--white);
+  transition: 0.3s;
+}
+
+.section-cards:hover{
+  transform: scale(1.4);
+  border: solid 1px grey;
+}
+
+.wrap-cards{
+  width: 100%;
+}
+
+.cards{
+  width: 100%;
+}
+
+.cards-item{
+  padding: 1.5em;
+}
+
+.subtitle{
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 1.5em 0;
+}
+
+.cards-desc{
+  margin-bottom: 1em;
+}
+
+.flex-block{
+  display: flex;
+}
+
+.section-block{
+  position: relative;
+  width: 50%;
+  padding: 2em;
+  background-color: var(--gray);
+}
+
+.bg-blue{
+  background-color: #2690d4;
+}
+/* main style end */
+
+/* footer style start */
+.footer{
+  display: flex;
+  justify-content: space-around;
+  padding: 2em;
+  background-color: var(--black);
+}
+
+.link{
+  color: #2690d4;
+}
+/* footer style end */
